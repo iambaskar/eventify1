@@ -1,0 +1,59 @@
+/* YearView.css */
+.year-view {
+    padding: 1rem;
+  }
+  
+  .year-view-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .year-view-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .year-view-month {
+    width: calc(25% - 1rem);
+    padding: 1rem;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .year-view-month-header {
+    /* text-align: center; */
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .year-view-weekdays {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .year-view-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+  }
+  
+  .year-view-day-cell {
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .current-month {
+    /* background-color: #e6f7ff; */
+  }
+  
+  .grey-out {
+    color: #ccc;
+  }
+  

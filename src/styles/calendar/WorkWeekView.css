@@ -1,0 +1,59 @@
+.work-week-view {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    width: 100%;
+    border: 1px solid var(--cal-border-color);
+  }
+  
+  .work-week-header {
+    display: grid;
+    grid-template-columns: 5rem repeat(5, 1fr);
+  }
+  
+  .work-week-day-header {
+    padding: 1rem;
+    border-left: 1px solid var(--cal-border-color);
+    background: #fff;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .work-week-day-header  > .work-week-date{
+    font-family: EuclidMedium;
+    font-size: 1.8rem;
+    color: var(--txt-color);
+  }
+  .work-week-day-header > p{
+    font-family: EuclidMedium;
+  }
+  .work-week-body {
+    display: grid;
+    grid-template-columns: 5rem repeat(5, 1fr);
+  }
+  
+  .time-row {
+    display: contents;
+  }
+  
+  .time-slot {
+    padding: 1rem;
+    background-color: #fff;
+    /* border-top: 1px solid #ccc; */
+    text-align: right;
+    color: var(--txt-color);
+    font-family: EuclidMedium;
+    font-size: 0.9rem;
+  }
+  
+  .day-cell {
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    min-height: 8rem;
+    position: relative;
+  }
+  
+  .day-cell:hover {
+    background-color: #eaeaea;
+  }
+  

@@ -1,0 +1,39 @@
+.month-view-weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* min-height: 5rem; */
+    border-top: 1px solid var(--cal-border-color);
+    border-left: 1px solid var(--cal-border-color);
+    color: var(--txt-color);
+    font-family: EuclidMedium;
+}
+
+.weekday-cell {
+    border-right: 1px solid var(--cal-border-color);
+    padding: 0.6rem;
+}
+
+.month-view-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border-bottom: 1px solid var(--cal-border-color);
+    border-right: 1px solid var(--cal-border-color);
+}
+
+.month-view-day-cell {
+    padding: 0.6rem;
+    border-top: 1px solid var(--cal-border-color);
+    border-left: 1px solid var(--cal-border-color);
+    min-height: 8rem;
+    position: relative;
+}
+.day-number{
+    font-family: EuclidMedium;
+    color: var(--txt-color);
+    font-size: 1rem;
+}
+.grey-number{
+    font-family: EuclidMedium;
+    color: var(--prev-month);
+    font-size: 1rem;
+}

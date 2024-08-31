@@ -1,0 +1,39 @@
+:root{
+  --txt-color: rgba(27, 36, 54, 1);
+  --btn-color: rgba(27, 81, 187, 1);
+  --cal-border-color: #D3DCE5;
+  --prev-month: #8493B2;
+}
+@font-face {
+  font-family: "EuclidRegular";
+  src: url(../fonts/Euclid-Circular-A-Regular.ttf);
+}
+@font-face {
+  font-family: "EuclidBold";
+  src: url(../fonts/Euclid-Circular-A-Bold.ttf);
+}
+@font-face {
+  font-family: "EuclidLight";
+  src: url(../fonts/Euclid-Circular-A-Light.ttf);
+}
+@font-face {
+  font-family: "EuclidMedium";
+  src: url(../fonts/Euclid-Circular-A-Medium.ttf);
+}
+@font-face {
+  font-family: "EuclidSemibold";
+  src: url(../fonts/Euclid-Circular-A-SemiBold-Italic.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: EuclidRegular;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

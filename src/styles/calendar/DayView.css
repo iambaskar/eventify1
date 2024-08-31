@@ -1,0 +1,73 @@
+.day-view {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .day-header {
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid var(--cal-border-color)
+  }
+  
+
+  .day-date{
+    font-family: EuclidMedium;
+    font-size: 1.8rem;
+    color: var(--txt-color);
+  }
+  
+  .day-title > p{
+    font-size: 1rem;
+    font-family: EuclidMedium;
+    color: var(--txt-color);
+  } 
+  .day-body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-grow: 1;
+    background-color: #fff;
+  }
+  
+  .day-time-row {
+    display: flex;
+    align-items: center;
+    height: 7rem; 
+    border-bottom: 1px solid var(--cal-border-color);
+    border-left: 1px solid var(--cal-border-color);
+    border-right: 1px solid var(--cal-border-color);
+    position: relative;
+    
+  }
+  
+  .day-time-slot {
+    width: 5rem;
+    padding: 1rem;
+    font-size: 14px;
+    color: var(--txt-color);
+    font-family: EuclidMedium;
+  }
+  
+  .day-hour-cell {
+    flex-grow: 1;
+    position: relative;
+    background-color: #fff;
+    border-left: 1px solid #ddd;
+  }
+/*   
+  .event {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #87ceeb;
+    color: #fff;
+    padding: 2px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+   */
